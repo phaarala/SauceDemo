@@ -18,11 +18,10 @@ This project demonstrates practical UI test automation: reliable locators, data-
 ## Tech stack
 
 | Purpose - Tool |
-|---|---|
-| Language | Python |
-| Browser automation | Playwright |
-| Test runner | pytest (`pytest-playwright`) |
-| Version control | Git / GitHub |
+| Language - Python |
+| Browser automation - Playwright |
+| Test runner - pytest (`pytest-playwright`) |
+| Version control - Git / GitHub |
 
 ## Project structure
 
