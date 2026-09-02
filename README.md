@@ -33,7 +33,7 @@ test_login.py       # Login and credential-validation tests
 test_inventory.py   # Cart / inventory tests
 ```
 
-## Design decisions (why it's built this way)
+## Design decisions
 
 - **Page Object Model** — each page's locators and actions live in a single class (`LoginPage`, `InventoryPage`). A UI change is fixed in one place, and tests read as intent (`login_page.login(...)`) rather than raw mechanics.
 - **Stable locators** — targets `data-test` attributes and user-facing roles/placeholders instead of brittle CSS paths or display text, so tests survive cosmetic redesigns.
