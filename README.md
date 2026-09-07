@@ -1,3 +1,5 @@
+[![CI](https://github.com/phaarala/SauceDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/phaarala/SauceDemo/actions/workflows/ci.yml)
+
 # SauceDemo — Automated Test Suite (Playwright + pytest)
 
 Automated end-to-end and regression tests for the [SauceDemo](https://www.saucedemo.com) web store, built with **Python, Playwright, and pytest** using the **Page Object Model**.
