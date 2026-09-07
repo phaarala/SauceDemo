@@ -1,4 +1,4 @@
-[![CI](https://github.com/phaarala/SauceDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/phaarala/SauceDemo/actions/workflows/ci.yml)
+[![CI](https://github.com/phaarala/SauceDemo/actions/workflows/workflows.ci.yml/badge.svg)](https://github.com/phaarala/SauceDemo/actions/workflows/workflows.ci.yml)
 
 # SauceDemo — Automated Test Suite (Playwright + pytest)
 
