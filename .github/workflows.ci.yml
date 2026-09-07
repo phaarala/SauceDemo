@@ -1,0 +1,22 @@
+name: CI
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+      
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      
+      - name: Install dependencies (pytest, playwright, pytest-playwright)
+        run: pip install pytest playwright pytest-playwright
+      
+      - name: Install the Playwright browser binaries
+        run: playwright install --with-deps
+      
+      - name: Run pytest
+        run: pytest -v
